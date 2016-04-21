@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
     sensor = sm.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
 
     sm.registerListener(myAccelerometerListener,
-            sm.getDefaultSensor(sensorType), 20000);
+            sm.getDefaultSensor(sensorType), 20000);// github修改
 
 
 }
